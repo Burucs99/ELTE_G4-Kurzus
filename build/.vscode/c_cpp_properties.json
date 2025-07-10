@@ -1,0 +1,19 @@
+{
+"configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/aburucs/G4/Geant4/geant4-v11.3.0-install/include",
+                "/home/aburucs/G4/Geant4/geant4-v11.3.0-install/include/Geant4",
+                "/home/aburucs/G4/Geant4/geant4-v11.3.0-install/lib"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
