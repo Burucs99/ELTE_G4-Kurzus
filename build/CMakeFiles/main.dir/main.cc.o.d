@@ -664,4 +664,17 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4coutDestination.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIbatch.hh \
  /home/tamas/FILES/ELTE_G4-Kurzus/include/YourDetectorConstruction.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserDetectorConstruction.hh
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Material.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NistManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ICRU90StoppingData.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NistElementBuilder.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NistMaterialBuilder.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Pow.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Exp.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Box.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Types.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh

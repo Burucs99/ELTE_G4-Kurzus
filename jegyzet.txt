@@ -1,0 +1,34 @@
+Mandartory elements in a G4 simulation:
+    1.) RunManager->calls YourDetectorConstruction::Build() -> i.e: builds the detector, we can define PhysicsLists, 
+    2.) YourDetectorConstruction::Build() -> define the geometry and material of the detector
+    3.) PhysicsLists
+    4.) UserPrimaryGeneratorAction: defines how the partiles should be created in an event -> one event is produced after hitting the green button?
+    5.) YourActionInitialization: with this we can register the UserPrimaryGeneratorAction with the RunManager
+
+
+1.) YourDetectorConstruction
+    -isotopes: G4Isotope
+    -elements: G4Element: can be made up with more than one isotope (enriched uranium) ----> ::AddIsotope()
+    -material: G4Material: can be cretd by giving it elements (and the number of them) ----> H20 (chemical molecule)
+    -nistManager:: a database with 3000+ isotopes: mainly used if we don't want to specify its properties manually, and there is a wast number
+    of gretly predefined materials: liquidArgon
+    -solid-, logical-, phyisical volumes
+
+    a.) Solid: G4VSolid->everything is dervied from here, gives access to multiple operations: distance calculations, logical check for points being
+    inside/outside/on the surface of an object ----> G4Box, G4Tube, G4Para
+    b.) Logical: we can give the material definition of an object
+    c.) Physical: we can place inside the wolrd: G4PVPlacement()->check for overlaps, mother volume, index, rotation, translation
+
+2.) YouPhysicsList:
+    -this needs to be filled!
+
+3.) UserInterface
+    -we can give some commands: command /directory/name parameters ---> /run/beamOn 100
+    -UI->ApplyCommand(“/tracking/verbose 1"); ---> it is said to be slow, so it is advised to use these via macro files or from the UI
+    - /control/execute vas.mac ---> executes the macro file
+    - batch mode vs. interactive mode: if macro files are provided, the gui isn't needed to be shown!
+
+4.) Visualisation:
+    -G4VisManager---> it is used to visualise the things: mostly OpenGL + QT is used, it doesn't work fine on this machine......
+    
+

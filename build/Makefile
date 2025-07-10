@@ -177,6 +177,30 @@ src/YourDetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourDetectorConstruction.cc.s
 .PHONY : src/YourDetectorConstruction.cc.s
 
+src/YourPhysicsList.o: src/YourPhysicsList.cc.o
+.PHONY : src/YourPhysicsList.o
+
+# target to build an object file
+src/YourPhysicsList.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourPhysicsList.cc.o
+.PHONY : src/YourPhysicsList.cc.o
+
+src/YourPhysicsList.i: src/YourPhysicsList.cc.i
+.PHONY : src/YourPhysicsList.i
+
+# target to preprocess a source file
+src/YourPhysicsList.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourPhysicsList.cc.i
+.PHONY : src/YourPhysicsList.cc.i
+
+src/YourPhysicsList.s: src/YourPhysicsList.cc.s
+.PHONY : src/YourPhysicsList.s
+
+# target to generate assembly for a file
+src/YourPhysicsList.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourPhysicsList.cc.s
+.PHONY : src/YourPhysicsList.cc.s
+
 src/YourPrimaryGenerator.o: src/YourPrimaryGenerator.cc.o
 .PHONY : src/YourPrimaryGenerator.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/YourDetectorConstruction.o"
 	@echo "... src/YourDetectorConstruction.i"
 	@echo "... src/YourDetectorConstruction.s"
+	@echo "... src/YourPhysicsList.o"
+	@echo "... src/YourPhysicsList.i"
+	@echo "... src/YourPhysicsList.s"
 	@echo "... src/YourPrimaryGenerator.o"
 	@echo "... src/YourPrimaryGenerator.i"
 	@echo "... src/YourPrimaryGenerator.s"

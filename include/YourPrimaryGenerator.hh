@@ -9,21 +9,7 @@
 class YourPrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction {
 public:
 
-/* 
-Geant4 futás felépülése :
 
-
-RUN : RunManager felügyeli 
-
-Event : Egy eventen belül lehetnek események , például egy radioaktív bomlás
-
-Primary Vertexek : * cézium itt áll és a vertex az hogy oda raktam 
-
-"Step"-ek --- >   *   ---> Barium o ->>> 
-step1:              step2:
-e- (x,y,z,p,E) ->>> e- (x+deltax,y+deltay,...)
-
-*/
     YourPrimaryGeneratorAction();
     virtual ~YourPrimaryGeneratorAction();
 
@@ -33,6 +19,4 @@ private:
     G4ParticleGun* fPGun;
 
 };
-
-
 #endif

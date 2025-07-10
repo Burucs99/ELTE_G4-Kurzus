@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/tamas/FILES/ELTE_G4-Kurzus/main.cc" "CMakeFiles/main.dir/main.cc.o" "gcc" "CMakeFiles/main.dir/main.cc.o.d"
   "/home/tamas/FILES/ELTE_G4-Kurzus/src/YourDetectorConstruction.cc" "CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o" "gcc" "CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o.d"
+  "/home/tamas/FILES/ELTE_G4-Kurzus/src/YourPhysicsList.cc" "CMakeFiles/main.dir/src/YourPhysicsList.cc.o" "gcc" "CMakeFiles/main.dir/src/YourPhysicsList.cc.o.d"
   "/home/tamas/FILES/ELTE_G4-Kurzus/src/YourPrimaryGenerator.cc" "CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o" "gcc" "CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o.d"
   )
 
