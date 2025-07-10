@@ -8,9 +8,9 @@ public:
     //Konstruktór
     YourDetectorConstruction();
     //Destruktór
-    virtual ~YourDetectorConstruction() override;
+    virtual ~YourDetectorConstruction();
 
-    virtual G4VPhysicalVolume* Construct() override;
+    virtual G4VPhysicalVolume* Construct();
 
 private:
 

@@ -2,9 +2,7 @@
 
 #include "G4ParticleGun.hh"
 
-YourPrimaryGeneratorAction::YourPrimaryGeneratorAction()
-: G4VUserPrimaryGeneratorAction(),
- fPGun(nullptr){
+YourPrimaryGeneratorAction::YourPrimaryGeneratorAction():G4VUserPrimaryGeneratorAction(), fPGun(nullptr){
     fPGun = new G4ParticleGun(1);
 }
 
@@ -16,5 +14,5 @@ YourPrimaryGeneratorAction::~YourPrimaryGeneratorAction(){
 void YourPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent){
 
 
-    fPGun->GeneratePrimaryVertex(evt);
+    fPGun->GeneratePrimaryVertex(ecvt);
 }

@@ -1,8 +1,9 @@
-CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: \
- /home/tamas/FILES/ELTE_G4-Kurzus/src/YourDetectorConstruction.cc \
+CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: \
+ /home/tamas/FILES/ELTE_G4-Kurzus/src/YourPrimaryGenerator.cc \
  /usr/include/stdc-predef.h \
- /home/tamas/FILES/ELTE_G4-Kurzus/include/YourDetectorConstruction.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourPrimaryGenerator.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleGun.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/globals.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Types.hh \
@@ -226,70 +227,14 @@ CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/stl_uninitialized.h \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Material.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Element.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElementTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElementVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4IonisParamElm.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Isotope.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4IsotopeVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4IonisParamMat.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DensityEffectCalculator.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertiesTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertiesIndex.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertyVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsFreeVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVector.hh \
- /usr/include/c++/13/fstream \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Log.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVectorType.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVector.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SandiaTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4OrderedTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DataVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DataVector.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /usr/include/assert.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NistManager.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Material.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NistElementBuilder.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Pow.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Exp.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/geomdefs.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RotationMatrix.hh \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPrimaryGenerator.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ThreeVector.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/Rotation.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationX.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationX.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationY.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationY.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationZ.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeomSplitter.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/geomwdefs.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleDefinition.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PDefManager.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AutoLock.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
@@ -303,42 +248,18 @@ CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: \
  /usr/include/c++/13/bits/atomic_futex.h /usr/include/c++/13/atomic \
  /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
- /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Box.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeomTypes.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeomConfig.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4CSGSolid.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSolid.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSolid.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Polyhedron.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/HepPolyhedron.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TwoVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Point3D.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Normal3D.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Transform3D.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Visible.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Visible.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Box.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Types.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Region.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Region.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh
+ /usr/include/c++/13/bits/this_thread_sleep.h /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/pwdefs.hh \
+ /usr/include/c++/13/stdlib.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleDefinition.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PrimaryVertex.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Allocator.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AllocatorPool.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PrimaryParticle.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleMomentum.hh

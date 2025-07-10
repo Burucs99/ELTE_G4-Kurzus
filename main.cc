@@ -1,6 +1,5 @@
 #include <iostream>
 #include <G4MTRunManager.hh>
-
 #include "G4RunManager.hh"
 #include "G4RunManagerFactory.hh"
 #include "G4UImanager.hh"
@@ -24,8 +23,6 @@ int main(){
 
     YourDetectorConstruction * detector = new YourDetectorConstruction ;
     runManager->SetUserInitialization(detector);
-
-
 
     std::cout<<"Hello World"<<std::endl;
 

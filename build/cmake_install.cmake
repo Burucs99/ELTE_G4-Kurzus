@@ -1,4 +1,4 @@
-# Install script for directory: /home/aburucs/G4/Geant4/Geant-Kurzus
+# Install script for directory: /home/tamas/FILES/ELTE_G4-Kurzus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aburucs/G4/Geant4/Geant-Kurzus/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tamas/FILES/ELTE_G4-Kurzus/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
