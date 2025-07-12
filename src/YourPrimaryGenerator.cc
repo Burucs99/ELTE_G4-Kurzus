@@ -14,5 +14,5 @@ YourPrimaryGeneratorAction::~YourPrimaryGeneratorAction(){
 void YourPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent){
 
     //adjustments are needed here!
-    //fPGun->GeneratePrimaryVertex(ecvt);
+    fPGun->GeneratePrimaryVertex(anEvent);
 }

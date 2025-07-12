@@ -241,6 +241,9 @@ Fontconfig_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
 
+//The directory containing a CMake configuration file for Geanat4.
+Geanat4_DIR:PATH=Geanat4_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for Geant4.
 Geant4_DIR:PATH=/home/tamas/G4/geant4-v11.3.2-install/lib/cmake/Geant4
 

@@ -341,4 +341,20 @@ CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Region.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Tubs.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Tubs.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SubtractionSolid.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BooleanSolid.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DisplacedSolid.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VBooleanProcessor.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BooleanSolid.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserLimits.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserLimits.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisAttributes.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/graphics_reps_defs.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Colour.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Color.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisAttributes.icc

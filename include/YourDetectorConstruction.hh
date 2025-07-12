@@ -27,6 +27,11 @@ class YourDetectorConstruction : public G4VUserDetectorConstruction {
         G4Box* solidWorldVolume;
         G4LogicalVolume* logicalVolume;
         G4VPhysicalVolume* physicalVolume;
+        G4LogicalVolume* ftargetLogical;
+
+        G4bool fCheckOverlaps = true;
+
+        void BuildHPGe();
 };
 
 #endif

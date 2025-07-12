@@ -1,8 +1,8 @@
 Mandartory elements in a G4 simulation:
-    1.) RunManager->calls YourDetectorConstruction::Build() -> i.e: builds the detector, we can define PhysicsLists, 
+    1.) RunManager->calls YourDetectorConstruction::Build() -> i.e: builds the detector, we can define PhysicsLists and UserPrimaryGeneratorActions and so on..
     2.) YourDetectorConstruction::Build() -> define the geometry and material of the detector
-    3.) PhysicsLists
-    4.) UserPrimaryGeneratorAction: defines how the partiles should be created in an event -> one event is produced after hitting the green button?
+    3.) PhysicsLists: seems a little bit complicated, luckily we can use predefined ones
+    4.) UserPrimaryGeneratorAction: defines how the particles should be created in an event -> one event is produced after hitting the green button?
     5.) YourActionInitialization: with this we can register the UserPrimaryGeneratorAction with the RunManager
 
 
@@ -17,7 +17,7 @@ Mandartory elements in a G4 simulation:
     a.) Solid: G4VSolid->everything is dervied from here, gives access to multiple operations: distance calculations, logical check for points being
     inside/outside/on the surface of an object ----> G4Box, G4Tube, G4Para
     b.) Logical: we can give the material definition of an object
-    c.) Physical: we can place inside the wolrd: G4PVPlacement()->check for overlaps, mother volume, index, rotation, translation
+    c.) Physical: we can place inside the world: G4PVPlacement()->check for overlaps, mother volume, index, rotation, translation, etc...
 
 2.) YouPhysicsList:
     -this needs to be filled!
@@ -31,4 +31,46 @@ Mandartory elements in a G4 simulation:
 4.) Visualisation:
     -G4VisManager---> it is used to visualise the things: mostly OpenGL + QT is used, it doesn't work fine on this machine......
     
+
+5.) Optional user actions and MT
+    - G4Track: keeps track of the state of a particle
+    ----> member functions:
+            1. G4ParticleDefinition: for example: electron (stores static properties)
+            2. G4DynamicParticle: stores dynamic properties: momentum, energy
+            3. G4StepPoint-s: pre-, and post-step points: contains information regarding the position, direction, energy, material, volume, etc...
+
+    -G4SteppingManager:
+        1. G4UserSteppingAction: virtual UserSteppingAction(const G4Step* aStep) ---> called after each step of the G4SteppingManager: we can get
+                                 information regarding the current step
+
+
+    small code snippet representing the stepping functions:
+
+    @
+        G4StepPoint* preStep = theStep->GetPreStepPoint();
+        G4StepPoint* postStep = theStep->GetPostStepPoint();
+
+        G4VPhysicalVolume* physVol = theStep->GetPhysicalVolume();
+        G4double stpEdep = theStep->GetTotalEnergyDeposit();
+        G4double stpLength = theStep->GetStepLength();
+
+        and so on ...
+    @
+
+6.) G4Event:
+    - basically contains multiple G4Steps:
+    -it ought to be percepted as stack, and G4Steps are pushed onto the stakc if a G4Event is initialised
+    -if a G4Step is terminated (the particle leaves the outermost volume, terminated manually, or lost its entire energy, then it is popped from the stack)
+    - virtual BeginOfEventAction(const G4Event* anEvent) && virtual EndOfEventAction(const G4Event* anEvent) --> we can tell G4 what we want to do at the beginning
+      and the ending of an event
+
+7.) G4Run:
+    - contains G4Events (hierarchy found!)
+
+8.) Multitheading:
+    - some steps are independent of each other -> can be computed separatly
+    - multiprocessing (executes the same program multiple times) && multitheading (the program is executed only once)
+    - Master and Working theads ---> after the run the workers provid all the information (G4Run) that they encountered and give it to the Master thread 
+// how do we distiguish what kind of particle are we talking about if we have dosens of them? How do we control them? Do we need it at all? 
+
 

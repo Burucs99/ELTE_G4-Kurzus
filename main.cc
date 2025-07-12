@@ -9,14 +9,17 @@
 
 #include "YourDetectorConstruction.hh"
 #include "YourPhysicsList.hh"
+#include "G4HadronicParameters.hh"
 
 int main(int argc, char** argv){
     
-    #ifdef G4MULTITHREADED
-        G4MTRunManager* runManager = new G4MTRunManager;
-    #else 
-        G4RunManager *runManager = new G4RunManager;
-    #endif
+    //#ifdef G4MULTITHREADED
+        //G4MTRunManager* runManager = new G4MTRunManager;
+    //#else 
+        G4RunManager* runManager = new G4RunManager;
+    //#endif
+
+    G4HadronicParameters::Instance()->SetTimeThresholdForRadioactiveDecay(1.0e+60* CLHEP::year);
 
     YourDetectorConstruction* detector = new YourDetectorConstruction();
     YourPhysicsList* physics = new YourPhysicsList();
@@ -25,11 +28,20 @@ int main(int argc, char** argv){
 
     G4UIExecutive* ui = nullptr;
 
-    /*if(argc == 1){
+    if(argc == 1){
         ui = new G4UIExecutive(argc, argv);
     }
 
+    G4VisManager* visManager = new G4VisExecutive();
+    visManager->SetVerboseLevel(0); 
+    visManager->Initialize();
+
+    runManager->Initialize();
+
     G4UImanager* UImanager = G4UImanager::GetUIpointer();
+    UImanager->SetVerboseLevel(0);
+
+    UImanager->ApplyCommand("/control/execute ../vis.mac");
 
     if(!ui){
         G4String exec = "control/execute ";
@@ -39,7 +51,7 @@ int main(int argc, char** argv){
     else{
         ui->SessionStart();
         delete ui;
-    }*/
+    }
 
 
    
