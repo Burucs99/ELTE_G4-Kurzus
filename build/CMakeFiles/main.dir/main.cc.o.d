@@ -679,11 +679,34 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Pow.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Exp.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Box.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Types.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourSensitiveDetector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4CollectionNameVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSDFilter.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Step.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHistory.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RNGHelper.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/trkdefs.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepPoint.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ThreeVector.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/HPGeDetectorConstruction.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Tubs.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SubtractionSolid.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BooleanSolid.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DisplacedSolid.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VBooleanProcessor.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BooleanSolid.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserLimits.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserLimits.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisAttributes.hh \
  /home/tamas/FILES/ELTE_G4-Kurzus/include/YourPhysicsList.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicsConstructor.hh \

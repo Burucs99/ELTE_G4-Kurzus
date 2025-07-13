@@ -153,6 +153,30 @@ main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cc.s
 .PHONY : main.cc.s
 
+src/HPGeDetectorConstruction.o: src/HPGeDetectorConstruction.cc.o
+.PHONY : src/HPGeDetectorConstruction.o
+
+# target to build an object file
+src/HPGeDetectorConstruction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o
+.PHONY : src/HPGeDetectorConstruction.cc.o
+
+src/HPGeDetectorConstruction.i: src/HPGeDetectorConstruction.cc.i
+.PHONY : src/HPGeDetectorConstruction.i
+
+# target to preprocess a source file
+src/HPGeDetectorConstruction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.i
+.PHONY : src/HPGeDetectorConstruction.cc.i
+
+src/HPGeDetectorConstruction.s: src/HPGeDetectorConstruction.cc.s
+.PHONY : src/HPGeDetectorConstruction.s
+
+# target to generate assembly for a file
+src/HPGeDetectorConstruction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.s
+.PHONY : src/HPGeDetectorConstruction.cc.s
+
 src/YourDetectorConstruction.o: src/YourDetectorConstruction.cc.o
 .PHONY : src/YourDetectorConstruction.o
 
@@ -225,6 +249,30 @@ src/YourPrimaryGenerator.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.s
 .PHONY : src/YourPrimaryGenerator.cc.s
 
+src/YourSensitiveDetector.o: src/YourSensitiveDetector.cc.o
+.PHONY : src/YourSensitiveDetector.o
+
+# target to build an object file
+src/YourSensitiveDetector.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o
+.PHONY : src/YourSensitiveDetector.cc.o
+
+src/YourSensitiveDetector.i: src/YourSensitiveDetector.cc.i
+.PHONY : src/YourSensitiveDetector.i
+
+# target to preprocess a source file
+src/YourSensitiveDetector.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourSensitiveDetector.cc.i
+.PHONY : src/YourSensitiveDetector.cc.i
+
+src/YourSensitiveDetector.s: src/YourSensitiveDetector.cc.s
+.PHONY : src/YourSensitiveDetector.s
+
+# target to generate assembly for a file
+src/YourSensitiveDetector.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourSensitiveDetector.cc.s
+.PHONY : src/YourSensitiveDetector.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,6 +285,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/HPGeDetectorConstruction.o"
+	@echo "... src/HPGeDetectorConstruction.i"
+	@echo "... src/HPGeDetectorConstruction.s"
 	@echo "... src/YourDetectorConstruction.o"
 	@echo "... src/YourDetectorConstruction.i"
 	@echo "... src/YourDetectorConstruction.s"
@@ -246,6 +297,9 @@ help:
 	@echo "... src/YourPrimaryGenerator.o"
 	@echo "... src/YourPrimaryGenerator.i"
 	@echo "... src/YourPrimaryGenerator.s"
+	@echo "... src/YourSensitiveDetector.o"
+	@echo "... src/YourSensitiveDetector.i"
+	@echo "... src/YourSensitiveDetector.s"
 .PHONY : help
 
 

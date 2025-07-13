@@ -43,6 +43,8 @@ int main(int argc, char** argv){
 
     UImanager->ApplyCommand("/control/execute ../vis.mac");
 
+    
+
     if(!ui){
         G4String exec = "control/execute ";
         G4String commandName = argv[1];

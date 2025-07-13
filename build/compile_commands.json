@@ -7,6 +7,12 @@
 },
 {
   "directory": "/home/tamas/FILES/ELTE_G4-Kurzus/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_QT3D -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tamas/FILES/ELTE_G4-Kurzus/include -isystem /home/tamas/G4/geant4-v11.3.2-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/HPGeDetectorConstruction.cc",
+  "file": "/home/tamas/FILES/ELTE_G4-Kurzus/src/HPGeDetectorConstruction.cc",
+  "output": "CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o"
+},
+{
+  "directory": "/home/tamas/FILES/ELTE_G4-Kurzus/build",
   "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_QT3D -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tamas/FILES/ELTE_G4-Kurzus/include -isystem /home/tamas/G4/geant4-v11.3.2-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/YourDetectorConstruction.cc",
   "file": "/home/tamas/FILES/ELTE_G4-Kurzus/src/YourDetectorConstruction.cc",
   "output": "CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o"
@@ -22,5 +28,11 @@
   "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_QT3D -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tamas/FILES/ELTE_G4-Kurzus/include -isystem /home/tamas/G4/geant4-v11.3.2-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/YourPrimaryGenerator.cc",
   "file": "/home/tamas/FILES/ELTE_G4-Kurzus/src/YourPrimaryGenerator.cc",
   "output": "CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o"
+},
+{
+  "directory": "/home/tamas/FILES/ELTE_G4-Kurzus/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_QT3D -DG4VIS_USE_RAYTRACERX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/tamas/FILES/ELTE_G4-Kurzus/include -isystem /home/tamas/G4/geant4-v11.3.2-install/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -fPIC -o CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/YourSensitiveDetector.cc",
+  "file": "/home/tamas/FILES/ELTE_G4-Kurzus/src/YourSensitiveDetector.cc",
+  "output": "CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o"
 }
 ]

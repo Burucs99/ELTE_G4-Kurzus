@@ -201,7 +201,9 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -431,16 +433,20 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				4,
-				5,
-				6
+				6,
+				7,
+				8,
+				9,
+				10
 			]
 		}
 	],
@@ -450,6 +456,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/HPGeDetectorConstruction.cc",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -472,6 +484,17 @@
 		},
 		{
 			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/YourSensitiveDetector.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/HPGeDetectorConstruction.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"path" : "include/YourDetectorConstruction.hh",
 			"sourceGroupIndex" : 1
 		},
@@ -483,6 +506,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "include/YourPrimaryGenerator.hh",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/YourSensitiveDetector.hh",
 			"sourceGroupIndex" : 1
 		}
 	],

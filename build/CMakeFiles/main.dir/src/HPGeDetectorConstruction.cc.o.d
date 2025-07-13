@@ -1,7 +1,7 @@
-CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: \
- /home/tamas/FILES/ELTE_G4-Kurzus/src/YourDetectorConstruction.cc \
+CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o: \
+ /home/tamas/FILES/ELTE_G4-Kurzus/src/HPGeDetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/tamas/FILES/ELTE_G4-Kurzus/include/YourDetectorConstruction.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/HPGeDetectorConstruction.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/globals.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
@@ -305,6 +305,7 @@ CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: \
  /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
  /usr/include/c++/13/bits/this_thread_sleep.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Box.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeomTypes.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeomConfig.hh \
@@ -340,73 +341,14 @@ CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Region.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
- /home/tamas/FILES/ELTE_G4-Kurzus/include/YourSensitiveDetector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4CollectionNameVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HCofThisEvent.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Allocator.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AllocatorPool.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VHitsCollection.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Step.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepPoint.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SteppingControl.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepStatus.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHandle.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VTouchable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHistory.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationHistory.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationLevel.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationLevelRep.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationLevelRep.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationLevel.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationHistoryPool.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationHistory.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHistory.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ReferenceCountedHandle.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepPoint.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Step.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Track.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/trkdefs.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElectronOccupancy.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/pwdefs.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LorentzVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleDefinition.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PDefManager.hh \
- /usr/include/c++/13/stdlib.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleDefinition.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleMomentum.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackStatus.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserTrackInformation.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsModelCatalog.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Track.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VHit.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VReadOutGeometry.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SensitiveVolumeList.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSDFilter.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Step.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHistory.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RNGHelper.hh \
- /usr/include/c++/13/queue /usr/include/c++/13/deque \
- /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
- /usr/include/c++/13/bits/stl_queue.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/trkdefs.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepPoint.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ThreeVector.hh \
- /home/tamas/FILES/ELTE_G4-Kurzus/include/HPGeDetectorConstruction.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Tubs.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Tubs.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SubtractionSolid.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BooleanSolid.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DisplacedSolid.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VBooleanProcessor.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BooleanSolid.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserLimits.hh \
@@ -416,5 +358,4 @@ CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Colour.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Color.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisAttributes.icc \
- /home/tamas/FILES/ELTE_G4-Kurzus/include/HPGeDetectorConstruction.hh \
- /home/tamas/FILES/ELTE_G4-Kurzus/include/YourSensitiveDetector.hh
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh

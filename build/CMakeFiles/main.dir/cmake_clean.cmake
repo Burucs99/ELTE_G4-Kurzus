@@ -1,12 +1,16 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cc.o"
   "CMakeFiles/main.dir/main.cc.o.d"
+  "CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o"
+  "CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o.d"
   "CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o"
   "CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o.d"
   "CMakeFiles/main.dir/src/YourPhysicsList.cc.o"
   "CMakeFiles/main.dir/src/YourPhysicsList.cc.o.d"
   "CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o"
   "CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o.d"
+  "CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o"
+  "CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o.d"
   "main"
   "main.pdb"
 )
