@@ -14,6 +14,7 @@
 #include "G4Material.hh"
 //#include "G4VisAttributes.hh"
 #include <G4ios.hh>
+#include "G4SDManager.hh"
 
 // Other user created files
 #include "YourSensitiveDetector.hh"
@@ -27,9 +28,6 @@ class YourDetectorConstruction : public G4VUserDetectorConstruction {
         virtual G4VPhysicalVolume* Construct();
 
     private:
-
-        // Note: i don't know if it is logically correct to put the sensitive detector as a member variable of this class, but we willg go with this now.
-        YourSensitiveDetector* sensitiveDetector;
 
         virtual void ConstructSDandFields();
 

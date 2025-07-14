@@ -633,6 +633,7 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Scene.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrajectoriesModel.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HadronicParameters.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisExecutive.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisManager.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisExecutive.icc \
@@ -683,18 +684,82 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Types.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
- /home/tamas/FILES/ELTE_G4-Kurzus/include/YourSensitiveDetector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SDManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HCtable.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SDStructure.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4CollectionNameVector.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSDFilter.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourSensitiveDetector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Step.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHistory.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RNGHelper.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/trkdefs.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepPoint.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ThreeVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AnalysisManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ToolsAnalysisManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VAnalysisManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AnalysisManagerState.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AnalysisVerbose.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AnalysisUtilities.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VTBaseHnManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HnInformation.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BinScheme.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Fcn.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VAnalysisManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HnManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BaseAnalysisManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/ntuple_booking \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/cids \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/cid \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/typedefs \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/forit \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VNtupleManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VFileManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BaseFileManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VTHnFileManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TH1ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnMessenger.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnToolsManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnMessenger.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Tokenizer.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TH2ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TH3ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TP1ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TP2ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h1d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h1 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/b1 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/base_histo \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/histo_data \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/axes \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/axis \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/eqT \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h2d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h2 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/b2 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h3d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h3 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/b3 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/p1d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/p1 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/profile_data \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/p2d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/p2 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ToolsAnalysisManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.icc \
  /home/tamas/FILES/ELTE_G4-Kurzus/include/HPGeDetectorConstruction.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh \
@@ -736,4 +801,11 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIcmdWithADouble.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIcmdWithAString.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIcmdWithADoubleAndUnit.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HadronicParameters.hh
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourActionInitialisation.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserActionInitialization.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourPrimaryGenerator.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleGun.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPrimaryGenerator.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourRunAction.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh

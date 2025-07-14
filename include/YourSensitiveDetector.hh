@@ -14,6 +14,8 @@
 #include <trkdefs.hh>
 #include <G4StepPoint.hh>
 #include <G4ThreeVector.hh>
+#include <G4RunManager.hh>
+#include "G4AnalysisManager.hh"
 
 class YourSensitiveDetector : public G4VSensitiveDetector{
 

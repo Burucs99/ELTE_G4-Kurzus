@@ -99,6 +99,8 @@ class HPGeDetectorConstruction{
         G4LogicalVolume *calorimeterLogicalVolume, *endCapLogicalVolume, *endCapDisk1LogicalVolume, *endCapDisk2LogicalVolume, *crystalLogicalVolume, *deadLayerLogicalVolume;
         G4VPhysicalVolume *calorimeterPhysicalVolume, *endCapPhysicalVolume, *endCapDisk1PhysicalVolume, *endCapDisk2PhysicalVolume, *crystalPhysicalVolume, *deadLayerPhysicalVolume;
         G4SubtractionSolid* crystalSolid; 
+
+        
 };
 
 

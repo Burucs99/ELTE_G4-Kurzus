@@ -5,11 +5,13 @@
 #include "G4UImanager.hh"
 #include "G4UIExecutive.hh"
 #include "G4VisManager.hh"
+#include "G4HadronicParameters.hh"
 #include "G4VisExecutive.hh"
 
 #include "YourDetectorConstruction.hh"
 #include "YourPhysicsList.hh"
-#include "G4HadronicParameters.hh"
+#include "YourActionInitialisation.hh"
+
 
 int main(int argc, char** argv){
     
@@ -19,12 +21,16 @@ int main(int argc, char** argv){
         G4RunManager* runManager = new G4RunManager;
     //#endif
 
+
     G4HadronicParameters::Instance()->SetTimeThresholdForRadioactiveDecay(1.0e+60* CLHEP::year);
 
     YourDetectorConstruction* detector = new YourDetectorConstruction();
     YourPhysicsList* physics = new YourPhysicsList();
+    YourActionInitialisation* action = new YourActionInitialisation();
+
     runManager->SetUserInitialization(detector);
     runManager->SetUserInitialization(physics);
+    runManager->SetUserInitialization(action);
 
     G4UIExecutive* ui = nullptr;
 
@@ -33,7 +39,6 @@ int main(int argc, char** argv){
     }
 
     G4VisManager* visManager = new G4VisExecutive();
-    visManager->SetVerboseLevel(0); 
     visManager->Initialize();
 
     runManager->Initialize();

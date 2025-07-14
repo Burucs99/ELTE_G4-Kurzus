@@ -177,6 +177,30 @@ src/HPGeDetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.s
 .PHONY : src/HPGeDetectorConstruction.cc.s
 
+src/YourActionInitialisation.o: src/YourActionInitialisation.cc.o
+.PHONY : src/YourActionInitialisation.o
+
+# target to build an object file
+src/YourActionInitialisation.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourActionInitialisation.cc.o
+.PHONY : src/YourActionInitialisation.cc.o
+
+src/YourActionInitialisation.i: src/YourActionInitialisation.cc.i
+.PHONY : src/YourActionInitialisation.i
+
+# target to preprocess a source file
+src/YourActionInitialisation.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourActionInitialisation.cc.i
+.PHONY : src/YourActionInitialisation.cc.i
+
+src/YourActionInitialisation.s: src/YourActionInitialisation.cc.s
+.PHONY : src/YourActionInitialisation.s
+
+# target to generate assembly for a file
+src/YourActionInitialisation.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourActionInitialisation.cc.s
+.PHONY : src/YourActionInitialisation.cc.s
+
 src/YourDetectorConstruction.o: src/YourDetectorConstruction.cc.o
 .PHONY : src/YourDetectorConstruction.o
 
@@ -249,6 +273,30 @@ src/YourPrimaryGenerator.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.s
 .PHONY : src/YourPrimaryGenerator.cc.s
 
+src/YourRunAction.o: src/YourRunAction.cc.o
+.PHONY : src/YourRunAction.o
+
+# target to build an object file
+src/YourRunAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourRunAction.cc.o
+.PHONY : src/YourRunAction.cc.o
+
+src/YourRunAction.i: src/YourRunAction.cc.i
+.PHONY : src/YourRunAction.i
+
+# target to preprocess a source file
+src/YourRunAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourRunAction.cc.i
+.PHONY : src/YourRunAction.cc.i
+
+src/YourRunAction.s: src/YourRunAction.cc.s
+.PHONY : src/YourRunAction.s
+
+# target to generate assembly for a file
+src/YourRunAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourRunAction.cc.s
+.PHONY : src/YourRunAction.cc.s
+
 src/YourSensitiveDetector.o: src/YourSensitiveDetector.cc.o
 .PHONY : src/YourSensitiveDetector.o
 
@@ -288,6 +336,9 @@ help:
 	@echo "... src/HPGeDetectorConstruction.o"
 	@echo "... src/HPGeDetectorConstruction.i"
 	@echo "... src/HPGeDetectorConstruction.s"
+	@echo "... src/YourActionInitialisation.o"
+	@echo "... src/YourActionInitialisation.i"
+	@echo "... src/YourActionInitialisation.s"
 	@echo "... src/YourDetectorConstruction.o"
 	@echo "... src/YourDetectorConstruction.i"
 	@echo "... src/YourDetectorConstruction.s"
@@ -297,6 +348,9 @@ help:
 	@echo "... src/YourPrimaryGenerator.o"
 	@echo "... src/YourPrimaryGenerator.i"
 	@echo "... src/YourPrimaryGenerator.s"
+	@echo "... src/YourRunAction.o"
+	@echo "... src/YourRunAction.i"
+	@echo "... src/YourRunAction.s"
 	@echo "... src/YourSensitiveDetector.o"
 	@echo "... src/YourSensitiveDetector.i"
 	@echo "... src/YourSensitiveDetector.s"

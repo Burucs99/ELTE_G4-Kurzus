@@ -2,6 +2,8 @@
 
 
 
+
+
 YourSensitiveDetector::YourSensitiveDetector(G4String name) : G4VSensitiveDetector(name){
 
 }
@@ -20,7 +22,19 @@ G4bool YourSensitiveDetector::ProcessHits(G4Step* theStep, G4TouchableHistory* h
 
     G4ThreeVector posParticle = preStepPoint->GetPosition();
 
-    G4cout << "Position of the particle: " << posParticle;
+    // kerjodel? Ezt igy csak le lehet kerdezni?
+    G4int eventNumber = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
+
+    G4cout << "what the fck is up with this???????????????\n\n\n\n";
+
+
+    G4AnalysisManager* manager = G4AnalysisManager::Instance();
+    manager->FillNtupleIColumn(0, eventNumber);
+    manager->FillNtupleDColumn(1, posParticle[0]);
+    manager->FillNtupleDColumn(2, posParticle[1]);
+    manager->FillNtupleDColumn(3, posParticle[2]);
+    manager->AddNtupleRow(0); // finishing the
+
 
     return true;
 

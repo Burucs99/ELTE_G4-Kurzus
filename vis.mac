@@ -1,6 +1,10 @@
 /vis/open OGLI
-/vis/viewer/set/viewpointThetaPhi 70 20
+/vis/viewer/set/viewpointVector 1 1 1
 /vis/drawVolume
-/vis/scene/add/trajectories
+/vis/viewer/set/autoRefresh true
+/vis/scene/add/trajectories smooth 
+/vis/scene/add/scale 10 cm       
+/vis/scene/add/eventID                 
 /vis/scene/endOfEventAction accumulate
 /vis/verbose warnings
+/run/beamOn 1

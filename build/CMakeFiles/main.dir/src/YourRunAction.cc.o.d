@@ -1,11 +1,8 @@
-CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: \
- /home/tamas/FILES/ELTE_G4-Kurzus/src/YourPrimaryGenerator.cc \
+CMakeFiles/main.dir/src/YourRunAction.cc.o: \
+ /home/tamas/FILES/ELTE_G4-Kurzus/src/YourRunAction.cc \
  /usr/include/stdc-predef.h \
- /home/tamas/FILES/ELTE_G4-Kurzus/include/YourPrimaryGenerator.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleGun.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/globals.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourRunAction.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Types.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/13/complex \
@@ -182,6 +179,14 @@ CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tls.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AnalysisManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ToolsAnalysisManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VAnalysisManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AnalysisManagerState.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AnalysisVerbose.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/globals.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
  /usr/include/c++/13/iostream /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
@@ -227,15 +232,8 @@ CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/bits/unique_lock.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPrimaryGenerator.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ThreeVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Utility/defs.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleDefinition.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PDefManager.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AutoLock.hh \
+ /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/array \
+ /usr/include/c++/13/compare \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
  /usr/include/c++/13/bits/shared_ptr.h \
@@ -253,20 +251,80 @@ CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/pwdefs.hh \
- /usr/include/c++/13/stdlib.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleDefinition.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PrimaryVertex.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Allocator.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AllocatorPool.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PrimaryParticle.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleMomentum.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleDefinition.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTableIterator.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTable.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4String.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ThreeVector.hh
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AnalysisUtilities.hh \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/fstream \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VTBaseHnManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HnInformation.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BinScheme.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Fcn.hh \
+ /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VAnalysisManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HnManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BaseAnalysisManager.hh \
+ /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
+ /usr/include/c++/13/bits/stl_multiset.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/ntuple_booking \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/cids \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/cid \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/typedefs \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/forit \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VNtupleManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VFileManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4BaseFileManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VTHnFileManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TH1ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AutoLock.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnMessenger.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UImessenger.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIdirectory.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIcommand.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ApplicationState.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ThreeVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIparameter.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnToolsManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4THnMessenger.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Tokenizer.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TH2ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TH3ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TP1ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TP2ToolsManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h1d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h1 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/b1 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/base_histo \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/histo_data \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/axes \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/axis \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/eqT \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h2d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h2 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/b2 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h3d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/h3 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/b3 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/p1d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/p1 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/profile_data \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/p2d \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/tools/histo/p2 \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ToolsAnalysisManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh

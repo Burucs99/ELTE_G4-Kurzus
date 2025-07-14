@@ -7,11 +7,11 @@ HPGeDetectorConstruction::HPGeDetectorConstruction(){
 
     this->nistManager = G4NistManager::Instance();
 
-    this->defaultMaterial  = this->nistManager->FindOrBuildMaterial("G4_AIR");
-    this->absorberbMaterial   = this->nistManager->FindOrBuildMaterial("G4_Ge");
-    this->vacuum           = this->nistManager->FindOrBuildMaterial("G4_Galactic");
-    this->aluminium        = this->nistManager->FindOrBuildMaterial("G4_Al");
-    this->teflon           = this->nistManager->FindOrBuildMaterial("G4_TEFLON");
+    this->defaultMaterial = this->nistManager->FindOrBuildMaterial("G4_AIR");
+    this->absorberbMaterial = this->nistManager->FindOrBuildMaterial("G4_Ge");
+    this->vacuum = this->nistManager->FindOrBuildMaterial("G4_Galactic");
+    this->aluminium = this->nistManager->FindOrBuildMaterial("G4_Al");
+    this->teflon = this->nistManager->FindOrBuildMaterial("G4_TEFLON");
 
 }
 
@@ -78,32 +78,5 @@ void HPGeDetectorConstruction::InitialiseAttributes(){
 
 
 HPGeDetectorConstruction::~HPGeDetectorConstruction(){
-
-    delete this->calorimeterSolid;
-    delete this->nistManager;
-    delete this->calorimeterLogicalVolume;
-    delete this->calorimeterPhysicalVolume;
-    delete this->endCapSolid;
-    delete this->endCapLogicalVolume;
-    delete this->endCapPhysicalVolume;
-    delete this->endCapDisk1Solid;
-    delete this->endCapDisk1LogicalVolume;
-    delete this->endCapDisk1PhysicalVolume;
-    delete this->endCapDisk2Solid;
-    delete this->endCapDisk2LogicalVolume;
-    delete this->endCapDisk2PhysicalVolume;
-    delete this->crystalCylinderSolid;
-    delete this->crystalHoleSolid;
-    delete this->crystalSolid;
-    delete this->crystalLogicalVolume;
-    delete this->crystalPhysicalVolume;
-    delete this->deadLayerCylinderSolid;
-    delete this->deadLayerLogicalVolume;
-    delete this->deadLayerPhysicalVolume;
-    delete this->defaultMaterial;
-    delete this->absorberbMaterial;
-    delete this->vacuum;
-    delete this->aluminium;
-    delete this->teflon;
 
 }

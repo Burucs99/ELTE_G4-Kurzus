@@ -32,19 +32,12 @@ G4VPhysicalVolume* YourDetectorConstruction::Construct(){
 
 void YourDetectorConstruction::ConstructSDandFields(){
 
-    this->sensitiveDetector = new YourSensitiveDetector("Sensitve_HPGe");
-    this->logicalSensitiveDetector->SetSensitiveDetector(this->sensitiveDetector);
+    YourSensitiveDetector* sensitiveDetector = new YourSensitiveDetector("SensitveHPGe");
+    G4SDManager::GetSDMpointer()->AddNewDetector(sensitiveDetector);
+    this->logicalSensitiveDetector->SetSensitiveDetector(sensitiveDetector);
 
 }
 
 YourDetectorConstruction::~YourDetectorConstruction() {
-
-    delete this->logicalSensitiveDetector;
-    delete this->HPGe;
-    delete this->worldMaterial;
-    delete this->solidWorldVolume;
-    delete this->logicalVolume;
-    delete this->logicalSensitiveDetector;
-    delete this->physicalVolume;
 
 }
