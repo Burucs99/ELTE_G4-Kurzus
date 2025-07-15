@@ -327,4 +327,6 @@ CMakeFiles/main.dir/src/YourRunAction.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh

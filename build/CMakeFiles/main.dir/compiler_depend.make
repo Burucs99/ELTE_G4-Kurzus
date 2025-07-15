@@ -136,7 +136,7 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Ellipsoid.icc \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmExtraPhysics.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmMessenger.hh \
-  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmStandardPhysics.hh \
+  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmStandardPhysics_option4.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EnvironmentUtils.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Event.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EventManager.hh \
@@ -2430,7 +2430,7 @@ CMakeFiles/main.dir/src/YourPhysicsList.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/s
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElementVector.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmExtraPhysics.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmMessenger.hh \
-  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmStandardPhysics.hh \
+  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmStandardPhysics_option4.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EnvironmentUtils.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Exception.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ExceptionSeverity.hh \
@@ -3174,6 +3174,7 @@ CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: /home/tamas/FILES/ELTE_G4-Kur
 
 CMakeFiles/main.dir/src/YourRunAction.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/src/YourRunAction.cc \
   /home/tamas/FILES/ELTE_G4-Kurzus/include/YourRunAction.hh \
+  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Utility/defs.h \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
@@ -3201,6 +3202,7 @@ CMakeFiles/main.dir/src/YourRunAction.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/src
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NtupleBookingManager.icc \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4String.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4String.icc \
+  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SystemOfUnits.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TH1ToolsManager.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TH2ToolsManager.hh \
   /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TH3ToolsManager.hh \
@@ -4814,14 +4816,6 @@ CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o: /home/tamas/FILES/ELTE_G4-Ku
 
 /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/LorentzVector.icc:
 
-/home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmStandardPhysics.hh:
-
-/usr/include/c++/13/bits/uniform_int_dist.h:
-
-/home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HnInformation.hh:
-
-/home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElementTable.hh:
-
 /usr/include/c++/13/bits/exception_defines.h:
 
 /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialCutsCouple.hh:
@@ -4843,6 +4837,12 @@ CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o: /home/tamas/FILES/ELTE_G4-Ku
 /usr/include/c++/13/tr1/ell_integral.tcc:
 
 /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleChangeForDecay.hh:
+
+/usr/include/c++/13/bits/uniform_int_dist.h:
+
+/home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HnInformation.hh:
+
+/home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElementTable.hh:
 
 /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PVPlacement.hh:
 
@@ -5417,6 +5417,8 @@ CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o: /home/tamas/FILES/ELTE_G4-Ku
 /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/PTL/Task.hh:
 
 /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ToolsAnalysisManager.icc:
+
+/home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmStandardPhysics_option4.hh:
 
 /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserTrackInformation.hh:
 

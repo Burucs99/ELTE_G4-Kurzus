@@ -492,6 +492,7 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
  /usr/include/c++/13/bits/list.tcc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4String.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RunManager.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RunManagerFactory.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MTRunManager.hh \
@@ -683,7 +684,6 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Box.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Types.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SDManager.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4HCtable.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SDStructure.hh \
@@ -786,7 +786,7 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialCutsCouple.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ProductionCuts.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MCCIndexConversionTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmStandardPhysics.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EmStandardPhysics_option4.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4OpticalPhysics.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4OpticalParameters.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DecayPhysics.hh \
