@@ -21,7 +21,7 @@ private:
 
     virtual G4bool ProcessHits(G4Step* , G4TouchableHistory* ) override;
 
-
+    G4double fEdep ;
 };
 
 
