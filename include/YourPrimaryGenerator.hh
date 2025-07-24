@@ -3,7 +3,7 @@
 
 
 #include "G4VUserPrimaryGeneratorAction.hh"
-
+class G4ParticleGun;
 
 class YourPrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction {
 public:
@@ -29,6 +29,7 @@ e- (x,y,z,p,E) ->>> e- (x+deltax,y+deltay,...)
     virtual void GeneratePrimaries(G4Event* anEvent);
 
 private:
+    G4ParticleGun* fPGun;
 
 };
 

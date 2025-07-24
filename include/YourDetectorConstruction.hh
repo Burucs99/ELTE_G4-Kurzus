@@ -13,7 +13,8 @@ public:
     virtual G4VPhysicalVolume* Construct() override;
 
 private:
-
+    virtual void ConstructSDandField();
+    G4LogicalVolume* fHPGe_Logic;
 
 
 
