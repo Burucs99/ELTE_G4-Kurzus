@@ -1,3 +1,0 @@
-/home/aburucs/G4/Geant4/Geant-Kurzus/CMakeFiles/main.dir
-/home/aburucs/G4/Geant4/Geant-Kurzus/CMakeFiles/edit_cache.dir
-/home/aburucs/G4/Geant4/Geant-Kurzus/CMakeFiles/rebuild_cache.dir
