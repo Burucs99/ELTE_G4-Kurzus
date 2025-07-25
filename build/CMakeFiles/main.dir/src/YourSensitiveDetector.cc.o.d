@@ -562,4 +562,6 @@ CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ToolsAnalysisManager.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.icc
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GenericFileManager.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Threading.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh
