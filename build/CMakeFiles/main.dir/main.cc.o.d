@@ -808,4 +808,14 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleGun.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPrimaryGenerator.hh \
  /home/tamas/FILES/ELTE_G4-Kurzus/include/YourRunAction.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Timer.hh \
+ /usr/include/x86_64-linux-gnu/sys/times.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Timer.icc
