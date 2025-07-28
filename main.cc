@@ -1,5 +1,6 @@
 #include <G4MTRunManager.hh>
 #include <G4String.hh>
+#include <G4ios.hh>
 #include "G4RunManager.hh"
 #include "G4RunManagerFactory.hh"
 #include "G4UImanager.hh"
@@ -15,11 +16,11 @@
 
 int main(int argc, char** argv){
     
-    //#ifdef G4MULTITHREADED
-        //G4MTRunManager* runManager = new G4MTRunManager;
-    //#else 
+    #ifdef G4MULTITHREADED
+        G4MTRunManager* runManager = new G4MTRunManager;
+    #else 
         G4RunManager* runManager = new G4RunManager;
-    //#endif
+    #endif
 
 
     G4HadronicParameters::Instance()->SetTimeThresholdForRadioactiveDecay(1.0e+60* CLHEP::year);
@@ -33,22 +34,22 @@ int main(int argc, char** argv){
     runManager->SetUserInitialization(action);
 
     G4UIExecutive* ui = nullptr;
-
     if(argc == 1){
         ui = new G4UIExecutive(argc, argv);
+        G4cout << "Hello argumentum\n\n\n";
     }
+
+    runManager->Initialize();
+
 
     G4VisManager* visManager = new G4VisExecutive();
     visManager->Initialize();
 
-    runManager->Initialize();
-
     G4UImanager* UImanager = G4UImanager::GetUIpointer();
     UImanager->SetVerboseLevel(0);
+    visManager->SetVerboseLevel(0);
 
     UImanager->ApplyCommand("/control/execute ../vis.mac");
-
-    
 
     if(!ui){
         G4String exec = "control/execute ";

@@ -1,45 +1,43 @@
 #include "YourRunAction.hh"
 #include <G4AnalysisManager.hh>
+#include <G4RunManager.hh>
+#include <G4SystemOfUnits.hh>
 #include <G4ios.hh>
 
-YourRunAction::YourRunAction(){
+YourRunAction::YourRunAction() : G4UserRunAction(){
 
     G4AnalysisManager* manager = G4AnalysisManager::Instance();
-    manager->SetVerboseLevel(2);
 
     manager->CreateNtuple("Hits", "Hits");
-    manager->CreateNtupleIColumn("fEvenet");
-    manager->CreateNtupleDColumn("fX");
-    manager->CreateNtupleDColumn("fY");
-    manager->CreateNtupleDColumn("fZ");
+    manager->CreateNtupleDColumn("EnergyDeposit");
+    manager->CreateH1("Edep","Energy Deposited-20 MeV",125,0,125*MeV);
     manager->FinishNtuple(0); // the id of the ntuple
+
+    this->timer = new G4Timer();
 
 }
 
 void YourRunAction::BeginOfRunAction(const G4Run* theRun){
 
-    G4cout << "Hiiiii my name is Jeff!" << G4endl;
+    this->timer->Start();
 
     G4AnalysisManager* manager = G4AnalysisManager::Instance();
 
-    manager->OpenFile("test.root");
-    G4cout << "Hii, my name WAS Jeff." << G4endl;
+    manager->OpenFile("muonEdep20.root");
 
 }
 
 void YourRunAction::EndOfRunAction(const G4Run* theRun) {
 
-    G4cout << "Hello hello hello \n";
-
     G4AnalysisManager* manager = G4AnalysisManager::Instance();
-    manager->SetVerboseLevel(2);
+
+    this->timer->Stop();
+    G4cout << "Simulation run time: " << timer->GetRealElapsed() << " seconds" << G4endl;
 
     manager->Write();
     manager->CloseFile();
-
-    G4cout << "Hello hello hello \n\n\n\n\n\n\n";
 }
 
 YourRunAction::~YourRunAction(){
-
+    delete this->timer;
 }

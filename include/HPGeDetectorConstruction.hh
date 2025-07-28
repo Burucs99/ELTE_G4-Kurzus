@@ -35,7 +35,7 @@ class HPGeDetectorConstruction{
         G4Material* defaultMaterial, *absorberbMaterial, *vacuum, *aluminium, *teflon;
         const G4bool fCheckOverlaps = true;
         const G4double  crystalDiameter            = 48. *mm,
-                        crystalLength              = 54.5 *mm,
+                        crystalLength              = (54.5 / 2) *mm, // for simulating the new Germanium detector
                         crystalHoleDiameter        = 7.5 *mm,
                         crystalHoleDepth           = 37.5*mm,
                         

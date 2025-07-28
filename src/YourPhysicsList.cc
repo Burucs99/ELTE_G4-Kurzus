@@ -3,7 +3,7 @@
 YourPhysicsList::YourPhysicsList(){
 
     //electromagnetic interactions
-    RegisterPhysics (new G4EmStandardPhysics());
+    RegisterPhysics (new G4EmStandardPhysics_option4());
     //optical physics
     RegisterPhysics (new G4OpticalPhysics());
     RegisterPhysics (new G4DecayPhysics());

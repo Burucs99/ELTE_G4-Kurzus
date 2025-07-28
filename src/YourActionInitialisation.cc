@@ -2,7 +2,7 @@
 #include "YourPrimaryGenerator.hh"
 #include "YourRunAction.hh"
 
-YourActionInitialisation::YourActionInitialisation(){
+YourActionInitialisation::YourActionInitialisation() : G4VUserActionInitialization(){
 
 }
 
@@ -16,8 +16,19 @@ void YourActionInitialisation::Build() const {
 
 }
 
+
 YourActionInitialisation::~YourActionInitialisation(){
 
 
+
+}
+
+void YourActionInitialisation::BuildForMaster() const{
+
+    YourPrimaryGeneratorAction* primaryGenerator = new YourPrimaryGeneratorAction();
+    YourRunAction* runAction = new YourRunAction();
+    
+    //SetUserAction(primaryGenerator);
+    SetUserAction(runAction);
 
 }

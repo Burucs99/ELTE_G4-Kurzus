@@ -73,4 +73,34 @@ Mandartory elements in a G4 simulation:
     - Master and Working theads ---> after the run the workers provid all the information (G4Run) that they encountered and give it to the Master thread 
 // how do we distiguish what kind of particle are we talking about if we have dosens of them? How do we control them? Do we need it at all? 
 
+beta blokk formula
+
+
+Naplo:
+    -fParticleGun
+    -nincs szogeloszlas
+    -10, 100, 1000 muon 
+    -10, 100, 1000 MeV
+    -30, 300, 3000 MeV
+    
+
+    140!
+    a lyuk is ugyanakkora mint a kirstaly felezesnel
+    3.34
+    80-as erdekes
+    60-as is
+
+    ---- kerdesek gabornak: *meeting idopontja*
+
+    az, hogy mennyi a muon fluxus, fugg a zenitszogtol is, hiszen tobb utat tesznek meg -> tubb esely van energiatveszteni, ees bomlani?
+    nagy solar activity -> kevesebb hattersugarzas?
+    mi a cel? Jol megmondani, hogy milyen energiaju muonokat detektalunk vagy, hogy megmondjk
+    elofizetes? ---> erdemes figyelni?
+    msot vannak flarek---> inditsunk mereseket? eleg kicsik, tujuk detektalni oket?
+    log-log?
+    
+
+
+
+
 

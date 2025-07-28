@@ -15,14 +15,14 @@ HPGeDetectorConstruction::HPGeDetectorConstruction(){
 
 }
 
-void HPGeDetectorConstruction::Build(G4LogicalVolume* motherWolrdVolume){
+void HPGeDetectorConstruction::Build(G4LogicalVolume* motherWorldVolume){
 
     this->calorimeterSolid = new G4Tubs ("Calorimeter", 0, endCapOuterDiameter/2, endCapLength/2, 0, 360*deg);
     this->calorimeterLogicalVolume  = new G4LogicalVolume (calorimeterSolid, vacuum, "Calorimeter");
     this->calorimeterPhysicalVolume = new G4PVPlacement (0, G4ThreeVector(0, 0, calorimeterShift),
                                                         calorimeterLogicalVolume,
                                                         "Calorimeter",
-                                                        motherWolrdVolume,
+                                                        motherWorldVolume,
                                                         false, 0, this->fCheckOverlaps);
  
     //------------------------

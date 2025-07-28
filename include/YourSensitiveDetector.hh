@@ -23,9 +23,14 @@ class YourSensitiveDetector : public G4VSensitiveDetector{
         YourSensitiveDetector(G4String name);
         ~YourSensitiveDetector();
 
+        virtual void Initialize(G4HCofThisEvent*);
+        virtual void EndOfEvent(G4HCofThisEvent*);
+
     private:
         // with this function we are able to process some hits: this is where the logic actually happens
         virtual G4bool ProcessHits(G4Step* theStep, G4TouchableHistory* history);
+
+        G4double fTotalEnergyDeposited;
 
 };
 

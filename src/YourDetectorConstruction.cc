@@ -23,14 +23,15 @@ G4VPhysicalVolume* YourDetectorConstruction::Construct(){
     //Build the HPGe
     
     this->HPGe->Build(this->logicalVolume);
+
     this->logicalSensitiveDetector = this->HPGe->GetCrystalLogicalVolume();
-    
+
     return this->physicalVolume; 
 
 }
 
 
-void YourDetectorConstruction::ConstructSDandFields(){
+void YourDetectorConstruction::ConstructSDandField(){
 
     YourSensitiveDetector* sensitiveDetector = new YourSensitiveDetector("SensitveHPGe");
     G4SDManager::GetSDMpointer()->AddNewDetector(sensitiveDetector);

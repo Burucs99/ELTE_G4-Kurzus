@@ -29,7 +29,7 @@ class YourDetectorConstruction : public G4VUserDetectorConstruction {
 
     private:
 
-        virtual void ConstructSDandFields();
+        virtual void ConstructSDandField();
 
         G4NistManager* nistManager;
         G4Material* worldMaterial;
