@@ -177,6 +177,30 @@ src/HPGeDetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.s
 .PHONY : src/HPGeDetectorConstruction.cc.s
 
+src/Materials.o: src/Materials.cc.o
+.PHONY : src/Materials.o
+
+# target to build an object file
+src/Materials.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Materials.cc.o
+.PHONY : src/Materials.cc.o
+
+src/Materials.i: src/Materials.cc.i
+.PHONY : src/Materials.i
+
+# target to preprocess a source file
+src/Materials.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Materials.cc.i
+.PHONY : src/Materials.cc.i
+
+src/Materials.s: src/Materials.cc.s
+.PHONY : src/Materials.s
+
+# target to generate assembly for a file
+src/Materials.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Materials.cc.s
+.PHONY : src/Materials.cc.s
+
 src/YourActionInitialisation.o: src/YourActionInitialisation.cc.o
 .PHONY : src/YourActionInitialisation.o
 
@@ -336,6 +360,9 @@ help:
 	@echo "... src/HPGeDetectorConstruction.o"
 	@echo "... src/HPGeDetectorConstruction.i"
 	@echo "... src/HPGeDetectorConstruction.s"
+	@echo "... src/Materials.o"
+	@echo "... src/Materials.i"
+	@echo "... src/Materials.s"
 	@echo "... src/YourActionInitialisation.o"
 	@echo "... src/YourActionInitialisation.i"
 	@echo "... src/YourActionInitialisation.s"

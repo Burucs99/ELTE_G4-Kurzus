@@ -807,6 +807,15 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleGun.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPrimaryGenerator.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeneralParticleSource.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SingleParticleSource.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SPSPosDistribution.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SPSRandomGenerator.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DataInterpolation.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SPSAngDistribution.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SPSEneDistribution.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeneralParticleSourceData.hh \
  /home/tamas/FILES/ELTE_G4-Kurzus/include/YourRunAction.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserRunAction.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Timer.hh \

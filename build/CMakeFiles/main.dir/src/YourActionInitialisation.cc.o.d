@@ -265,8 +265,7 @@ CMakeFiles/main.dir/src/YourActionInitialisation.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AllocatorPool.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PrimaryParticle.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleMomentum.hh \
- /home/tamas/FILES/ELTE_G4-Kurzus/include/YourRunAction.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RunManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeneralParticleSource.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Event.hh \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
@@ -278,31 +277,11 @@ CMakeFiles/main.dir/src/YourActionInitialisation.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrajectoryContainer.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VTrajectory.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserEventInformation.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EventManager.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StackManager.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserStackingAction.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ClassificationOfNewTrack.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StackedTrack.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackStack.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SmartTrackStack.hh \
- /usr/include/c++/13/array /usr/include/c++/13/compare \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SubEventTrackStack.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SubEvent.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Track.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/trkdefs.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Region.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeomSplitter.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/geomwdefs.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Region.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SingleParticleSource.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SPSPosDistribution.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Navigator.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/geomdefs.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RotationMatrix.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/Rotation.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
@@ -318,20 +297,6 @@ CMakeFiles/main.dir/src/YourActionInitialisation.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationZ.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElectronOccupancy.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Log.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LorentzVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackStatus.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHandle.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VTouchable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHistory.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationHistory.hh \
- /usr/include/assert.h \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Transform3D.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
@@ -340,6 +305,25 @@ CMakeFiles/main.dir/src/YourActionInitialisation.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4AffineTransform.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.hh \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Region.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeomSplitter.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/geomwdefs.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Region.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LogicalVolume.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHandle.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VTouchable.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHistory.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationHistory.hh \
+ /usr/include/assert.h \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationLevel.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationLevelRep.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationLevelRep.icc \
@@ -348,48 +332,6 @@ CMakeFiles/main.dir/src/YourActionInitialisation.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NavigationHistory.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TouchableHistory.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ReferenceCountedHandle.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserTrackInformation.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsModelCatalog.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Material.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Element.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElementTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElementVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4IonisParamElm.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Isotope.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4IsotopeVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4IonisParamMat.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DensityEffectCalculator.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertiesTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertiesIndex.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertyVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsFreeVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVector.hh \
- /usr/include/c++/13/fstream \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVectorType.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVector.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SandiaTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4OrderedTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DataVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DataVector.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Track.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Step.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepPoint.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SteppingControl.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepStatus.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepPoint.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Step.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PrimaryTransformer.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTable.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTableIterator.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTable.icc \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackingManager.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SteppingManager.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Navigator.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NormalNavigation.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VNavigation.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSolid.hh \
@@ -417,6 +359,80 @@ CMakeFiles/main.dir/src/YourActionInitialisation.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RegularNavigation.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VExternalNavigation.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Navigator.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SPSRandomGenerator.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsFreeVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVector.hh \
+ /usr/include/c++/13/fstream \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Log.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVectorType.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsVector.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DataInterpolation.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Cache.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4CacheDetails.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SPSAngDistribution.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SPSEneDistribution.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UImessenger.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIdirectory.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIcommand.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ApplicationState.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIparameter.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4GeneralParticleSourceData.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourRunAction.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RunManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4EventManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StackManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserStackingAction.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ClassificationOfNewTrack.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StackedTrack.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackStack.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SmartTrackStack.hh \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SubEventTrackStack.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SubEvent.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Track.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/trkdefs.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElectronOccupancy.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4LorentzVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DynamicParticle.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackStatus.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VUserTrackInformation.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Material.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Element.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElementTable.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ElementVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4IonisParamElm.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Isotope.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4IsotopeVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4IonisParamMat.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DensityEffectCalculator.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertiesTable.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertyVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialTable.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SandiaTable.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4OrderedTable.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DataVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4DataVector.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Track.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Step.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepPoint.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SteppingControl.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepStatus.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4StepPoint.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackVector.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Step.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4PrimaryTransformer.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTable.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTableIterator.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTable.icc \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackingManager.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4SteppingManager.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4NoProcess.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VProcess.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/Randomize.hh \
@@ -483,11 +499,6 @@ CMakeFiles/main.dir/src/YourActionInitialisation.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VSteppingVerbose.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/trkgdefs.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4TrackingMessenger.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UImessenger.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIdirectory.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIcommand.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ApplicationState.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UIparameter.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserTrackingAction.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4RunManagerKernel.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/rundefs.hh \

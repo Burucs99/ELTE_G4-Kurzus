@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cc.o.d"
   "CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o"
   "CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o.d"
+  "CMakeFiles/main.dir/src/Materials.cc.o"
+  "CMakeFiles/main.dir/src/Materials.cc.o.d"
   "CMakeFiles/main.dir/src/YourActionInitialisation.cc.o"
   "CMakeFiles/main.dir/src/YourActionInitialisation.cc.o.d"
   "CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o"
