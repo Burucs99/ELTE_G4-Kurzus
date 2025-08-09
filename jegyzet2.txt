@@ -1,0 +1,40 @@
+Kis c++:
+
+    #include ---> mit jelent?
+    scope ---> mit jelent?
+
+    class Auto{
+
+        public:
+            Auto();
+            ~Auto();
+
+            void f();
+            int g(int a);
+            int getUlesSzam() = {return this->ulesszam; }
+            bool setElektromos(bool elektromos) {this->elektromos = elektromos??};
+
+        private:
+            bool elektromos;
+            string szin;
+            int ulesSzam;
+    };
+
+    int a = 3;
+    int* a = new int(3);
+
+    this->   mit jelent?
+    getter, setter fuggvenyek
+
+    double = G4double
+    int = G4int
+
+
+    Macro: nagyon sok parncs felgyrositva: g4-es ablak oldalt
+
+
+-vine
+-online becsatlakozas
+-szogfugges implementacio
+-mca spektrumok: miket latunk?
+

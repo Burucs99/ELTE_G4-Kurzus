@@ -1,6 +1,7 @@
 #include <G4MTRunManager.hh>
 #include <G4String.hh>
 #include <G4ios.hh>
+#include <system_error>
 #include "G4RunManager.hh"
 #include "G4RunManagerFactory.hh"
 #include "G4UImanager.hh"
@@ -34,36 +35,32 @@ int main(int argc, char** argv){
     runManager->SetUserInitialization(action);
 
     G4UIExecutive* ui = nullptr;
+    
+    // if we have not provided any macro files
     if(argc == 1){
         ui = new G4UIExecutive(argc, argv);
-        G4cout << "Hello argumentum\n\n\n";
     }
-
-    runManager->Initialize();
-
 
     G4VisManager* visManager = new G4VisExecutive();
     visManager->Initialize();
+    visManager->SetVerboseLevel(0);
 
     G4UImanager* UImanager = G4UImanager::GetUIpointer();
     UImanager->SetVerboseLevel(0);
-    visManager->SetVerboseLevel(0);
 
-    UImanager->ApplyCommand("/control/execute ../vis.mac");
-
-    if(!ui){
-        G4String exec = "control/execute ";
-        G4String commandName = argv[1];
-        UImanager->ApplyCommand(exec + commandName);
-    }
-    else{
+    // if macros were not provided:
+    if(ui){
+        UImanager->ApplyCommand("/control/execute ../Macros/vis.mac");
         ui->SessionStart();
         delete ui;
     }
-
-
-   
-
+    // if macros were provided
+    else{
+        G4cout << "No visualisation.\n";
+        G4String execute = "/control/execute ";
+        G4String macro = argv[1];
+        UImanager->ApplyCommand(execute + macro); 
+    }
 
     return 0;
 

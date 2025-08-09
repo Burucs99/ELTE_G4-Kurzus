@@ -7,7 +7,7 @@
 #include "YourRunAction.hh"
 
 
-class YourActionInitialisation : public G4VUserActionInitialization{
+class YourActionInitialisation : public G4VUserActionInitialization {
 
     public:
         YourActionInitialisation();

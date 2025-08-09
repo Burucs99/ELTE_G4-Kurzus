@@ -1,0 +1,1 @@
+In this folder will be all then necesarry pthon scripts, that will generate the macro files. So far nothing is here.

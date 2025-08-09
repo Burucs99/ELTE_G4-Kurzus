@@ -1,4 +1,5 @@
 #include "HPGeDetectorConstruction.hh"
+#include <G4Box.hh>
 #include <G4ios.hh>
 
 
@@ -44,6 +45,7 @@ void HPGeDetectorConstruction::Build(G4LogicalVolume* motherWorldVolume){
 
     G4cout << absorberbMaterial->GetTemperature() << G4endl;
 
+
     this->crystalCylinderSolid = new G4Tubs("CrystalBase", 0, crystalDiameter / 2, activeCrystalLength / 2, 0, 360 * deg);
     this->crystalHoleSolid = new G4Tubs("CrystalHole", 0, crystalHoleDiameter / 2, crystalHoleDepth / 2, 0, 360 * deg);
     this->crystalSolid = new G4SubtractionSolid("Crystal", crystalCylinderSolid, crystalHoleSolid, 0, G4ThreeVector(0, 0, crystalHoleRelShift + deadLayerZ));
@@ -54,6 +56,7 @@ void HPGeDetectorConstruction::Build(G4LogicalVolume* motherWorldVolume){
     this->deadLayerLogicalVolume = new G4LogicalVolume(deadLayerCylinderSolid, absorberbMaterial, "DeadLayer");
     this->deadLayerPhysicalVolume = new G4PVPlacement(0, G4ThreeVector(0, 0, deadZShift), deadLayerLogicalVolume, "DeadLayer", calorimeterLogicalVolume, false, 0, fCheckOverlaps);
 
+    std::cout << "DeadShift: " << deadZShift << std::endl;
     //We define all the visible properties of the HPGe components
     this->InitialiseAttributes();
 
@@ -67,7 +70,7 @@ void HPGeDetectorConstruction::InitialiseAttributes(){
     this->calorimeterLogicalVolume->SetVisAttributes(new G4VisAttributes(G4Color(1.0, 0.0, 0.0,0.5))); // two red circles at the top and bottom
     this->endCapDisk2LogicalVolume->SetVisAttributes(new G4VisAttributes(G4Color(1.0, 0.0, 0.0,0.5)));
     this->endCapDisk1LogicalVolume->SetVisAttributes(new G4VisAttributes(G4Color(0.0, 0.0, 1.0,0.5)));
-    this->endCapLogicalVolume->SetVisAttributes(new G4VisAttributes(G4Color(0.0, 1.0, 1.0,0.5)));
+    this->endCapLogicalVolume->SetVisAttributes(new G4VisAttributes(G4Color(0.0, 1.0, 0.0,1.0)));
     this->deadLayerLogicalVolume->SetVisAttributes(new G4VisAttributes(G4Color(1.0, 0.0, 0.0,0.5)));
 
     G4VisAttributes* crystalVisAtt = new G4VisAttributes(G4Color(0.0, 1.0, 0.0,0.5));

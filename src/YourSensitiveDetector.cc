@@ -37,13 +37,6 @@ void YourSensitiveDetector::EndOfEvent(G4HCofThisEvent *)
 {
 
     G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
-
-    std::ofstream myFile("../data/muonEdep20-300-halfGe-Center/20MeV_1000event.txt", std::ios::app);
-    if (myFile.is_open()) {
-        myFile << this->fTotalEnergyDeposited << "\n";
-    } else {
-        G4cerr << "Nem sikerült megnyitni a fájlt!" << G4endl;
-    }
     
     analysisManager->FillH1(0,this->fTotalEnergyDeposited);
 
