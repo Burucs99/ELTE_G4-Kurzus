@@ -56,7 +56,6 @@ void HPGeDetectorConstruction::Build(G4LogicalVolume* motherWorldVolume){
     this->deadLayerLogicalVolume = new G4LogicalVolume(deadLayerCylinderSolid, absorberbMaterial, "DeadLayer");
     this->deadLayerPhysicalVolume = new G4PVPlacement(0, G4ThreeVector(0, 0, deadZShift), deadLayerLogicalVolume, "DeadLayer", calorimeterLogicalVolume, false, 0, fCheckOverlaps);
 
-    std::cout << "DeadShift: " << deadZShift << std::endl;
     //We define all the visible properties of the HPGe components
     this->InitialiseAttributes();
 

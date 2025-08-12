@@ -225,6 +225,30 @@ src/YourActionInitialisation.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourActionInitialisation.cc.s
 .PHONY : src/YourActionInitialisation.cc.s
 
+src/YourConcreteWall.o: src/YourConcreteWall.cc.o
+.PHONY : src/YourConcreteWall.o
+
+# target to build an object file
+src/YourConcreteWall.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourConcreteWall.cc.o
+.PHONY : src/YourConcreteWall.cc.o
+
+src/YourConcreteWall.i: src/YourConcreteWall.cc.i
+.PHONY : src/YourConcreteWall.i
+
+# target to preprocess a source file
+src/YourConcreteWall.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourConcreteWall.cc.i
+.PHONY : src/YourConcreteWall.cc.i
+
+src/YourConcreteWall.s: src/YourConcreteWall.cc.s
+.PHONY : src/YourConcreteWall.s
+
+# target to generate assembly for a file
+src/YourConcreteWall.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/YourConcreteWall.cc.s
+.PHONY : src/YourConcreteWall.cc.s
+
 src/YourDetectorConstruction.o: src/YourDetectorConstruction.cc.o
 .PHONY : src/YourDetectorConstruction.o
 
@@ -366,6 +390,9 @@ help:
 	@echo "... src/YourActionInitialisation.o"
 	@echo "... src/YourActionInitialisation.i"
 	@echo "... src/YourActionInitialisation.s"
+	@echo "... src/YourConcreteWall.o"
+	@echo "... src/YourConcreteWall.i"
+	@echo "... src/YourConcreteWall.s"
 	@echo "... src/YourDetectorConstruction.o"
 	@echo "... src/YourDetectorConstruction.i"
 	@echo "... src/YourDetectorConstruction.s"

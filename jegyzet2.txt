@@ -38,3 +38,5 @@ Kis c++:
 -szogfugges implementacio
 -mca spektrumok: miket latunk?
 
+-a fel Ge-nel miert van ilyen hirtelen felfutas?
+

@@ -125,10 +125,24 @@ CMakeFiles/main.dir/src/YourActionInitialisation.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/YourActionInitialisation.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tamas/FILES/ELTE_G4-Kurzus/src/YourActionInitialisation.cc -o CMakeFiles/main.dir/src/YourActionInitialisation.cc.s
 
+CMakeFiles/main.dir/src/YourConcreteWall.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/YourConcreteWall.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/src/YourConcreteWall.cc
+CMakeFiles/main.dir/src/YourConcreteWall.cc.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/YourConcreteWall.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/YourConcreteWall.cc.o -MF CMakeFiles/main.dir/src/YourConcreteWall.cc.o.d -o CMakeFiles/main.dir/src/YourConcreteWall.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/YourConcreteWall.cc
+
+CMakeFiles/main.dir/src/YourConcreteWall.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/YourConcreteWall.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tamas/FILES/ELTE_G4-Kurzus/src/YourConcreteWall.cc > CMakeFiles/main.dir/src/YourConcreteWall.cc.i
+
+CMakeFiles/main.dir/src/YourConcreteWall.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/YourConcreteWall.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tamas/FILES/ELTE_G4-Kurzus/src/YourConcreteWall.cc -o CMakeFiles/main.dir/src/YourConcreteWall.cc.s
+
 CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/src/YourDetectorConstruction.cc
 CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o -MF CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o.d -o CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/YourDetectorConstruction.cc
 
 CMakeFiles/main.dir/src/YourDetectorConstruction.cc.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/main.dir/src/YourDetectorConstruction.cc.s: cmake_force
 CMakeFiles/main.dir/src/YourPhysicsList.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/YourPhysicsList.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/src/YourPhysicsList.cc
 CMakeFiles/main.dir/src/YourPhysicsList.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/YourPhysicsList.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/YourPhysicsList.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/YourPhysicsList.cc.o -MF CMakeFiles/main.dir/src/YourPhysicsList.cc.o.d -o CMakeFiles/main.dir/src/YourPhysicsList.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/YourPhysicsList.cc
 
 CMakeFiles/main.dir/src/YourPhysicsList.cc.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/main.dir/src/YourPhysicsList.cc.s: cmake_force
 CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/src/YourPrimaryGenerator.cc
 CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o -MF CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o.d -o CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/YourPrimaryGenerator.cc
 
 CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.s: cmake_force
 CMakeFiles/main.dir/src/YourRunAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/YourRunAction.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/src/YourRunAction.cc
 CMakeFiles/main.dir/src/YourRunAction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/YourRunAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/YourRunAction.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/YourRunAction.cc.o -MF CMakeFiles/main.dir/src/YourRunAction.cc.o.d -o CMakeFiles/main.dir/src/YourRunAction.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/YourRunAction.cc
 
 CMakeFiles/main.dir/src/YourRunAction.cc.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/main.dir/src/YourRunAction.cc.s: cmake_force
 CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/src/YourSensitiveDetector.cc
 CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o -MF CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o.d -o CMakeFiles/main.dir/src/YourSensitiveDetector.cc.o -c /home/tamas/FILES/ELTE_G4-Kurzus/src/YourSensitiveDetector.cc
 
 CMakeFiles/main.dir/src/YourSensitiveDetector.cc.i: cmake_force
@@ -201,6 +215,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o" \
 "CMakeFiles/main.dir/src/Materials.cc.o" \
 "CMakeFiles/main.dir/src/YourActionInitialisation.cc.o" \
+"CMakeFiles/main.dir/src/YourConcreteWall.cc.o" \
 "CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o" \
 "CMakeFiles/main.dir/src/YourPhysicsList.cc.o" \
 "CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o" \
@@ -214,6 +229,7 @@ main: CMakeFiles/main.dir/main.cc.o
 main: CMakeFiles/main.dir/src/HPGeDetectorConstruction.cc.o
 main: CMakeFiles/main.dir/src/Materials.cc.o
 main: CMakeFiles/main.dir/src/YourActionInitialisation.cc.o
+main: CMakeFiles/main.dir/src/YourConcreteWall.cc.o
 main: CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o
 main: CMakeFiles/main.dir/src/YourPhysicsList.cc.o
 main: CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o
@@ -259,7 +275,7 @@ main: /home/tamas/G4/geant4-v11.3.2-install/lib/libG4global.so
 main: /home/tamas/G4/geant4-v11.3.2-install/lib/libG4clhep.so
 main: /home/tamas/G4/geant4-v11.3.2-install/lib/libG4ptl.so.3.0.0
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tamas/FILES/ELTE_G4-Kurzus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

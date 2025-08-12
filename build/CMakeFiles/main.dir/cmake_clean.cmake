@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/Materials.cc.o.d"
   "CMakeFiles/main.dir/src/YourActionInitialisation.cc.o"
   "CMakeFiles/main.dir/src/YourActionInitialisation.cc.o.d"
+  "CMakeFiles/main.dir/src/YourConcreteWall.cc.o"
+  "CMakeFiles/main.dir/src/YourConcreteWall.cc.o.d"
   "CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o"
   "CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o.d"
   "CMakeFiles/main.dir/src/YourPhysicsList.cc.o"

@@ -6,8 +6,9 @@
 YourDetectorConstruction::YourDetectorConstruction() : G4VUserDetectorConstruction(){
 
     this->nistManager = G4NistManager::Instance();
-    this->worldSize = 1 * m;
+    this->worldSize = 5 * m;
     this->logicalSensitiveDetector = nullptr;
+    this->concreteWall = new YourConcreteWall();
     this->HPGe = new HPGeDetectorConstruction();
 
 }
@@ -23,6 +24,7 @@ G4VPhysicalVolume* YourDetectorConstruction::Construct(){
     //Build the HPGe
     
     this->HPGe->Build(this->logicalVolume);
+    this->concreteWall->Build(this->logicalVolume);
 
     this->logicalSensitiveDetector = this->HPGe->GetCrystalLogicalVolume();
 

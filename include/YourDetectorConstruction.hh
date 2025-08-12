@@ -19,6 +19,7 @@
 // Other user created files
 #include "YourSensitiveDetector.hh"
 #include "HPGeDetectorConstruction.hh"
+#include "YourConcreteWall.hh"
 
 class YourDetectorConstruction : public G4VUserDetectorConstruction {
     public:
@@ -37,6 +38,7 @@ class YourDetectorConstruction : public G4VUserDetectorConstruction {
         G4Box* solidWorldVolume;
         G4LogicalVolume* logicalVolume, *logicalSensitiveDetector;
         G4VPhysicalVolume* physicalVolume;
+        YourConcreteWall* concreteWall;
 
         HPGeDetectorConstruction* HPGe;
 

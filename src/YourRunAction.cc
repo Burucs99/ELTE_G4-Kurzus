@@ -10,7 +10,7 @@ YourRunAction::YourRunAction() : G4UserRunAction(){
 
     manager->CreateNtuple("Hits", "Hits");
     manager->CreateNtupleDColumn("EnergyDeposit");
-    manager->CreateH1("Edep","Energy Deposited - Spectrum",170,0,170*MeV);
+    manager->CreateH1("Edep","Energy Deposited - Spectrum",170,1 * MeV,171*MeV);
     manager->FinishNtuple(0); // the id of the ntuple
 
     this->timer = new G4Timer();
@@ -23,7 +23,7 @@ void YourRunAction::BeginOfRunAction(const G4Run* theRun){
 
     G4AnalysisManager* manager = G4AnalysisManager::Instance();
 
-    manager->OpenFile("halfGeAndEneDistrPerturbation.root");
+    manager->OpenFile("withHoleFullGeAndEneDistrPerturbation.root");
 
 }
 

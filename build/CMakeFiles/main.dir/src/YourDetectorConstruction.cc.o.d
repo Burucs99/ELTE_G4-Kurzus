@@ -611,5 +611,9 @@ CMakeFiles/main.dir/src/YourDetectorConstruction.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Colour.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Color.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisAttributes.icc \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourConcreteWall.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/Materials.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Element.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertiesIndex.hh \
  /home/tamas/FILES/ELTE_G4-Kurzus/include/HPGeDetectorConstruction.hh \
  /home/tamas/FILES/ELTE_G4-Kurzus/include/YourSensitiveDetector.hh

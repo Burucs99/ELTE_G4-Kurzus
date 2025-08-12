@@ -772,6 +772,10 @@ CMakeFiles/main.dir/main.cc.o: /home/tamas/FILES/ELTE_G4-Kurzus/main.cc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserLimits.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4UserLimits.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VisAttributes.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/YourConcreteWall.hh \
+ /home/tamas/FILES/ELTE_G4-Kurzus/include/Materials.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4Element.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MaterialPropertiesIndex.hh \
  /home/tamas/FILES/ELTE_G4-Kurzus/include/YourPhysicsList.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4VPhysicsConstructor.hh \
