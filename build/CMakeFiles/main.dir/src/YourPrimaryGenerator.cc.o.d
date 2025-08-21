@@ -392,4 +392,5 @@ CMakeFiles/main.dir/src/YourPrimaryGenerator.cc.o: \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ParticleTable.icc \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4String.hh \
  /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ThreeVector.hh \
- /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4ios.hh \
+ /home/tamas/G4/geant4-v11.3.2-install/include/Geant4/G4MuonMinus.hh

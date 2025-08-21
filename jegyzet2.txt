@@ -38,5 +38,18 @@ Kis c++:
 -szogfugges implementacio
 -mca spektrumok: miket latunk?
 
--a fel Ge-nel miert van ilyen hirtelen felfutas?
+-a fel Ge-nel miert van ilyen hirtelen felfutas? ok
 
+-az energiaeloszlast nem kell beszorozni a detektor nagysagaval? - szerintem nem ok
+-a vegleges energiaeloszlast (szog is benne van) csak meg kell szorozni a cos(theta)^2-el, de nem kell sulyozni a detektor feluletevel? szerintem nem
+
+
+-a betonban mennyis energiat ad le a muon:
+    -nicns energiaeloszlas
+    -van energiaeloszlas && nincs szogeloszlas
+    -van szogeloszlas
+
+-az energiakra [0, 20] GeV kiszamolni, hogy mekkora az energialeadas ----> ebbol kesziteni egy grafikont, es egy Heaviside fele egysefuggvenyt, hogy amikor a leadott energia kissebb, mint az osszeneergia
+
+
+-fontos visszatenni a levegot? Ha lenne levego meg tudna-e tortenni, hogy a szorodas miatt tobb utat tenne meg a detektorban es nagyobb energiat ad le?

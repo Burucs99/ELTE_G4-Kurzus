@@ -6,10 +6,10 @@ YourConcreteWall::YourConcreteWall() {
     this->materialsTable = new Materials();
     this->wallMaterial = materialsTable->GetConcreteMaterial();
 
-    this->xLength = 5.0 * m;
+    this->xLength = 10000.0 * m;
     this->yLength = 5.0 * m;
-    this->zLength = 0.2 * m; // adjustments needed here
-    this->wallShift = G4ThreeVector(0, 0, -32 * cm); // position in the world volume
+    this->zLength = 1.5 * m; // adjustments needed here
+    this->wallShift = G4ThreeVector(0, 0, -3 * m); // position in the world volume
 
 }
 

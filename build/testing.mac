@@ -1,0 +1,14 @@
+/run/numberOfThreads 6
+
+/gps/particle mu-
+/gps/pos/type Point
+/gps/pos/centre 1.5 0.0 -700.0 cm 
+
+/gps/ene/emspec false
+/gps/ene/type Mono
+/gps/ene/mono 1000.0 MeV
+
+/gps/direction 0 0 1
+
+/run/initialize
+/run/beamOn 100000

@@ -1,7 +1,7 @@
 /run/numberOfThreads 6
 
 /gps/particle mu-
-#/gps/pos/type Point
+/gps/pos/type Point
 
 #energy distribution
 

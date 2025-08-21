@@ -36,8 +36,11 @@ void YourSensitiveDetector::Initialize(G4HCofThisEvent * hce)
 void YourSensitiveDetector::EndOfEvent(G4HCofThisEvent *)
 {
 
-    G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
     
-    analysisManager->FillH1(0,this->fTotalEnergyDeposited);
+    if(this->fTotalEnergyDeposited > 0){
+        G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
+        analysisManager->FillH1(0,this->fTotalEnergyDeposited);
+    }
+
 
 }

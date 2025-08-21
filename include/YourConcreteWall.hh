@@ -18,6 +18,8 @@ class YourConcreteWall {
 
         void Build(G4LogicalVolume* motherVolume);
 
+        G4LogicalVolume* GetLogicalVolume() const { return this->wallLogicalVolume; }
+
     private:
 
     void Initialiseattributes();
